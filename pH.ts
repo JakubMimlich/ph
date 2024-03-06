@@ -45,7 +45,7 @@ namespace PH {
    * @param avg average for multiple reading, eg: 10
    */
     //% blockId="ph_init"
-    //% block="pH init %port ph4: %pH4_mV mV ph7: %pH7_mV mV AVG: %avg"
+    //% block="pH init %port ph4: %pH4_mV ph7: %pH7_mV AVG: %avg"
     //% group="ph" 
     //% weight=50
     export function pH_Init(port: Port, pH4_mV: number, pH7_mV: number, avg: number): void {
